@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>Update Payment</h2>
+    <p><a href ="index.html">Menu</a></p>  
+  <form id="#add-form">
+  
+  	<div class="form-group">
+      <label for="fullName">Full Name:</label>
+      <input type="text" class="form-control" id="fullName" placeholder="Enter Full Name" name="fullName">
+    </div>
+  
+    <div class="form-group">
+      <label for="amount">Amount:</label>
+      <input type="text" class="form-control" id="amount" placeholder="Enter Amount" name="amount">
+    </div>
+    
+    <div class="form-group">
+      <label for="cardNo">Card Number:</label>
+      <input type="text" class="form-control" id="cardNo" placeholder="Enter Card Number" name="cardNo">
+    </div>
+    
+    <div class="form-group">
+      <label for="cvc">CVC:</label>
+      <input type="text" class="form-control" id="cvc" placeholder="Enter CVC" name="cvc">
+    </div>
+    
+    
+    <button id="btnSubmit" type="button" class="btn btn-default">Submit</button>
+  </form>
+</div>
+  <script src="../controllers/update_controller.js"></script>
+</body>
+</html>
